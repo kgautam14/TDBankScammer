@@ -1,28 +1,9 @@
-# random-name
+#TDBankScammer
 
-return random last names.
+My friend received a text from whait we believed was a Scammer and it reminded me of Engineer Man's Scammer video from YouTube, and thought I should try this myself.
 
-``` js
-  var random = require('random-name')
-  console.log(random())
+Link to Engineer Man's YouTube channel: https://www.youtube.com/channel/UCrUL8K81R4VBzm-KOYwrcxQ
 
-  //provides first, middle, and last names.
+If you have ever recieved a message or an email, directing you to a phishing website i.e illegitimate and trying to scam you, this code can help you save others from this trap. I'd recommend watching the video for a quick tutorial on how the code works.
 
-  console.log(random.first())
-  console.log(random.middle())
-  console.log(random.last())
-
-  //also, random place name!
-  console.log(random.place())
-  
-```
-
-need a list of first names, someone make a pull request.
-
-Taken from the [Moby Word List by Gary Ward](http://www.gutenberg.org/ebooks/3201)
-
-TODO: generate new names with markov chains.
-
-## License
-
-MIT
+Run scammer.py/random-name to run the program.
